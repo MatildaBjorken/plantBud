@@ -7,14 +7,14 @@ body {
 .background{
   background-color: white;
   margin-top: 6em;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 9em;
+  margin-right: 9em;
   border-radius: 7px;
 }
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
   .background{
     background-color: white;
     margin-top: 6em;
@@ -22,12 +22,14 @@ body {
     margin-right: 2em;
     border-radius: 7px;
   }
-  .border-right{
-    border-right: transparent;
-    border-right: 1px solid #dee2e600!important;
-  }
+  .border-rightt {
+    border-right: 1px solid #dee2e6!important;
+    }
   
 }
+.border-rightt {
+  border-right: 1px solid #dee2e600!important;
+  }
 
 
 
@@ -78,7 +80,7 @@ body {
 }
 
 .search-box {
-  background-color: rgb(63, 122, 63);
+  background-color: #e3e3e3;
   padding: 10px 13px;
   
   
@@ -105,25 +107,25 @@ input {
 input::-webkit-input-placeholder {
   color: #e3e3e3;
   font-weight: 300;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 input:-ms-input-placeholder {
   color: #e3e3e3;
   font-weight: 300;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 input::-ms-input-placeholder {
   color: #e3e3e3;
   font-weight: 300;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 input::placeholder {
   color: #e3e3e3;
   font-weight: 300;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 input:focus {
@@ -298,5 +300,5 @@ hr {
         }
     }
 
-
+    
 /*# sourceMappingURL=chat.css.map */
